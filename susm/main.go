@@ -7,7 +7,7 @@ import "os"
 import "fmt"
 import "flag"
 import "time"
-import "github.com/jan-provaznik/sus"
+import "github.com/rohitjha941/sus"
 import "github.com/NVIDIA/go-nvml/pkg/nvml"
 
 func main () {
