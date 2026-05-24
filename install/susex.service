@@ -1,0 +1,15 @@
+[Unit]
+Description=Astral RTX 5090 Per-Pin Monitoring Exporter
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/rohit/sus/bin/susex
+Restart=always
+RestartSec=10
+User=root
+Group=root
+WorkingDirectory=/home/rohit/sus
+
+[Install]
+WantedBy=multi-user.target
